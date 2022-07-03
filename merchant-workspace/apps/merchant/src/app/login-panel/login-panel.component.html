@@ -1,0 +1,8 @@
+<div>
+  <h1>Konta:</h1>
+  <button (click)="createAccount()">Stwórz konto</button>
+  <span *ngFor="let account of accountList">
+    {{account.firstname}} {{account.lastname}} ,
+  </span>
+
+</div>
